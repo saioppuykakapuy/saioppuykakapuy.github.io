@@ -47,7 +47,7 @@ npm run preview
 ## 替换资源
 
 - 头像：替换 `public/assets/avatar.png`。
-- 简历：放入 `public/resume/ChenJinfeng_Resume.pdf`。
+- 简历：文件必须放在 `public/resume/ChenJinfeng_Resume.pdf`，页面下载链接统一使用 `/resume/ChenJinfeng_Resume.pdf`。
 - 荣誉图片：放入 `public/assets/honors/honor-01.jpg` 等文件。
 - 团队图片：放入 `public/assets/team/team-01.jpg` 等文件。
 - 社交平台图片：放入 `public/assets/social/social-01.jpg` 等文件。

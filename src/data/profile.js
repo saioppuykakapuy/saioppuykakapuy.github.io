@@ -65,7 +65,7 @@ export const profile = {
     },
   },
   orbit: {
-    skills: ['C', 'MCU', 'Sensors', 'IoT', 'UART', 'I2C', 'SPI'],
+    skills: ['C', 'MCU', 'Sensors', 'IoT', 'UART', 'I2C', 'SPI', 'Keil', 'Arduino', 'VS Code'],
     status: [
       {
         label: { zh: '方向', en: 'Direction' },
@@ -128,7 +128,7 @@ export const profile = {
     en: 'Embedded Systems, MCU Development, Sensor Applications, IoT Monitoring Terminals, Smart Agriculture Devices, Intelligent Hardware Applications.',
   },
   about: {
-    avatar: '/assets/avatar.png',
+    avatar: '',
     tags: ['Embedded', 'MCU', 'C Language', 'Sensors', 'IoT', 'Smart Agriculture', 'Student', 'Always Learning'],
     zh: [
       '我是陈锦峰，来自广东科贸职业学院嵌入式技术应用专业。我的学习方向主要集中在 C 语言编程、单片机原理、嵌入式系统基础、传感器技术和智慧农业装备应用。',
@@ -216,7 +216,7 @@ export const profile = {
       titleZh: '智慧农业监测终端',
       titleEn: 'Smart Agriculture Monitoring Terminal',
       status: 'Coming Soon',
-      image: '/assets/projects/project-placeholder-01.png',
+      image: '',
       descZh: '用于展示智慧农业传感器数据采集、校验与可视化相关实践。',
       descEn: 'A future project for smart agriculture sensor data collection, validation, and visualization practice.',
       tags: ['Sensors', 'MCU', 'IoT', 'Data Validation'],
@@ -226,7 +226,7 @@ export const profile = {
       titleZh: '嵌入式监测节点',
       titleEn: 'Embedded Monitoring Node',
       status: 'Coming Soon',
-      image: '/assets/projects/project-placeholder-02.png',
+      image: '',
       descZh: '用于展示嵌入式监测节点程序设计、调试与数据采集能力。',
       descEn: 'A future project for embedded monitoring node programming, debugging, and data acquisition.',
       tags: ['C', 'MCU', 'Debugging', 'Sensors'],
@@ -236,7 +236,7 @@ export const profile = {
       titleZh: '智能硬件学习记录',
       titleEn: 'Intelligent Hardware Learning Notes',
       status: 'Coming Soon',
-      image: '/assets/projects/project-placeholder-03.png',
+      image: '',
       descZh: '用于记录单片机、通信协议、传感器与智能硬件方向的学习过程。',
       descEn: 'A future learning log for MCU, communication protocols, sensors, and intelligent hardware.',
       tags: ['Embedded', 'Notes', 'Hardware', 'Learning'],
@@ -246,7 +246,7 @@ export const profile = {
   honors: [
     {
       id: 1,
-      image: '/assets/honors/honor-01.jpg',
+      image: '',
       titleZh: '校级智慧农业技能大赛',
       titleEn: 'School-level Smart Agriculture Skills Competition',
       awardZh: '三等奖',
@@ -256,7 +256,7 @@ export const profile = {
     },
     {
       id: 2,
-      image: '/assets/honors/honor-02.jpg',
+      image: '',
       titleZh: '校级金点子创意大赛',
       titleEn: 'School-level Golden Idea Innovation Competition',
       awardZh: '二等奖',
@@ -266,7 +266,7 @@ export const profile = {
     },
     {
       id: 3,
-      image: '/assets/honors/honor-03.jpg',
+      image: '',
       titleZh: '青马工程培训班',
       titleEn: 'Young Marxist Training Program',
       awardZh: '优秀学员',
@@ -276,7 +276,7 @@ export const profile = {
     },
     {
       id: 4,
-      image: '/assets/honors/honor-04.jpg',
+      image: '',
       titleZh: '校级主题征文比赛',
       titleEn: 'School-level Themed Essay Competition',
       awardZh: '优秀奖',
@@ -297,7 +297,7 @@ export const profile = {
     {
       id: 1,
       category: 'certificate',
-      image: '/assets/honors/honor-01.jpg',
+      image: '',
       titleZh: '智慧农业技能大赛',
       titleEn: 'Smart Agriculture Skills Competition',
       descZh: '校级三等奖，负责嵌入式监测节点程序编写与调试。',
@@ -306,7 +306,7 @@ export const profile = {
     {
       id: 2,
       category: 'certificate',
-      image: '/assets/honors/honor-02.jpg',
+      image: '',
       titleZh: '金点子创意大赛',
       titleEn: 'Golden Idea Innovation Competition',
       descZh: '校级二等奖，参与嵌入式技术农业应用创意方案设计与答辩。',
@@ -315,7 +315,7 @@ export const profile = {
     {
       id: 3,
       category: 'competition',
-      image: '/assets/honors/honor-03.jpg',
+      image: '',
       titleZh: '青马工程培训记录',
       titleEn: 'Young Marxist Training Record',
       descZh: '优秀学员，完成全部课程与实践任务，综合表现优异。',
@@ -324,7 +324,7 @@ export const profile = {
     {
       id: 4,
       category: 'competition',
-      image: '/assets/honors/honor-04.jpg',
+      image: '',
       titleZh: '主题征文比赛',
       titleEn: 'Themed Essay Competition',
       descZh: '校级优秀奖，结合专业学习与职业规划撰写参赛征文。',
@@ -332,7 +332,7 @@ export const profile = {
     },
     {
       id: 5,
-      image: '/assets/team/team-01.jpg',
+      image: '',
       category: 'team',
       titleZh: '团队协作记录',
       titleEn: 'Teamwork Moment',
@@ -341,7 +341,7 @@ export const profile = {
     },
     {
       id: 6,
-      image: '/assets/team/team-02.jpg',
+      image: '',
       category: 'team',
       titleZh: '学习活动合影',
       titleEn: 'Learning Activity Group Photo',
@@ -350,7 +350,7 @@ export const profile = {
     },
     {
       id: 7,
-      image: '/assets/social/social-01.jpg',
+      image: '',
       category: 'social',
       titleZh: '社交平台图片',
       titleEn: 'Social Media Image',
@@ -359,7 +359,7 @@ export const profile = {
     },
     {
       id: 8,
-      image: '/assets/social/social-02.jpg',
+      image: '',
       category: 'learning',
       titleZh: '学习记录',
       titleEn: 'Learning Notes',
@@ -368,7 +368,7 @@ export const profile = {
     },
     {
       id: 9,
-      image: '/assets/projects/project-placeholder-01.png',
+      image: '',
       category: 'learning',
       titleZh: '项目过程学习记录',
       titleEn: 'Project Practice Learning Record',
@@ -391,5 +391,4 @@ export const profile = {
       en: 'Public resume version available for download.',
     },
   },
-  ticker: ['C Language', 'Embedded System', 'MCU', 'Sensors', 'IoT', 'Smart Agriculture', 'UART', 'I2C', 'SPI', 'Arduino', 'Keil', 'VS Code'],
 };

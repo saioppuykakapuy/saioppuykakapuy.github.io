@@ -1,6 +1,6 @@
 import { ArrowRight, Download, Trophy, Send } from 'lucide-react';
 import OrbitTech from './OrbitTech.jsx';
-import { assetPath, useTypewriter } from '../utils/animations.js';
+import { useTypewriter } from '../utils/animations.js';
 
 export default function Hero({ profile, lang }) {
   const content = profile.hero[lang];
@@ -29,7 +29,7 @@ export default function Hero({ profile, lang }) {
             <Trophy size={18} />
             {content.actions.honors}
           </a>
-          <a className="glow-button secondary" href={assetPath(profile.resume.path)} download>
+          <a className="glow-button secondary" href="/resume/ChenJinfeng_Resume.pdf" download>
             <Download size={18} />
             {content.actions.resume}
           </a>

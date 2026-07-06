@@ -1,5 +1,4 @@
 import { Download, Github, Mail, MapPin, Phone } from 'lucide-react';
-import { assetPath } from '../utils/animations.js';
 
 export default function Contact({ profile, lang }) {
   const contacts = [
@@ -35,7 +34,11 @@ export default function Contact({ profile, lang }) {
       <div className="section-heading reveal">
         <span className="eyebrow">Contact</span>
         <h2>{lang === 'zh' ? '联系方式' : 'Contact Me'}</h2>
-        <p>{lang === 'zh' ? '欢迎通过 GitHub 或邮箱联系，一起学习、交流和协作。' : 'Feel free to connect through GitHub or email for learning, communication, and collaboration.'}</p>
+        <p>
+          {lang === 'zh'
+            ? '欢迎通过 GitHub 或邮箱联系，一起学习、交流和协作。'
+            : 'Feel free to connect through GitHub or email for learning, communication, and collaboration.'}
+        </p>
       </div>
 
       <div className="contact-layout">
@@ -66,7 +69,7 @@ export default function Contact({ profile, lang }) {
               </div>
             );
           })}
-          <a className="glow-button contact-resume" href={assetPath(profile.resume.path)} download>
+          <a className="glow-button contact-resume" href="/resume/ChenJinfeng_Resume.pdf" download>
             <Download size={18} />
             {lang === 'zh' ? '下载简历' : 'Download Resume'}
           </a>
