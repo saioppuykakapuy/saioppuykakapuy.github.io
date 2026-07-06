@@ -29,7 +29,7 @@ export default function Hero({ profile, lang }) {
             <Trophy size={18} />
             {content.actions.honors}
           </a>
-          <a className="glow-button secondary" href="/resume/ChenJinfeng_Resume.pdf" download>
+          <a className="glow-button secondary" href="/resume/Blank_Resume.docx" download="Blank_Resume.docx">
             <Download size={18} />
             {content.actions.resume}
           </a>

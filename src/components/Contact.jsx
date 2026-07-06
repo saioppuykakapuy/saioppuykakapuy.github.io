@@ -13,13 +13,15 @@ export default function Contact({ profile, lang }) {
       icon: Mail,
       label: 'Email',
       value: profile.identity.email,
-      href: `mailto:${profile.identity.email}`,
+      href: '#',
+      disabled: true,
     },
     {
       icon: Phone,
       label: 'Phone',
       value: profile.identity.phone,
-      href: `tel:${profile.identity.phone}`,
+      href: '#',
+      disabled: true,
     },
     {
       icon: MapPin,
@@ -60,6 +62,8 @@ export default function Contact({ profile, lang }) {
                 href={item.href}
                 target={item.external ? '_blank' : undefined}
                 rel={item.external ? 'noopener noreferrer' : undefined}
+                aria-disabled={item.disabled ? 'true' : undefined}
+                onClick={item.disabled ? (event) => event.preventDefault() : undefined}
               >
                 {content}
               </a>
@@ -69,7 +73,7 @@ export default function Contact({ profile, lang }) {
               </div>
             );
           })}
-          <a className="glow-button contact-resume" href="/resume/ChenJinfeng_Resume.pdf" download>
+          <a className="glow-button contact-resume" href="/resume/Blank_Resume.docx" download="Blank_Resume.docx">
             <Download size={18} />
             {lang === 'zh' ? '下载简历' : 'Download Resume'}
           </a>

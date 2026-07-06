@@ -17,8 +17,8 @@ export const profile = {
       zh: '广东省清远市',
       en: 'Guangdong, China',
     },
-    email: '13725186511@qq.com',
-    phone: '13725186511',
+    email: 'xxx',
+    phone: 'xxx',
     githubUser: 'saioppuykakapuy',
     githubUrl: 'https://github.com/saioppuykakapuy',
     slogan: {
@@ -379,16 +379,16 @@ export const profile = {
   contactTerminal: [
     '> contact --info',
     '> github: saioppuykakapuy',
-    '> email: 13725186511@qq.com',
-    '> phone: 13725186511',
+    '> email: xxx',
+    '> phone: xxx',
     '> location: Guangdong, China',
     '> status: Open to Learning & Collaboration',
   ],
   resume: {
-    path: '/resume/ChenJinfeng_Resume.pdf',
+    path: '/resume/Blank_Resume.docx',
     hint: {
-      zh: '公开版简历，可下载查看。',
-      en: 'Public resume version available for download.',
+      zh: '当前下载为空白 Word 简历文档。',
+      en: 'The current download is a blank Word resume document.',
     },
   },
 };

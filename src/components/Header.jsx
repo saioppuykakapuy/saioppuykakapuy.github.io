@@ -49,7 +49,7 @@ export default function Header({ profile, lang, setLang, theme, setTheme }) {
         <a className="icon-button" href={profile.identity.githubUrl} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <Github size={19} />
         </a>
-        <a className="icon-button" href={`mailto:${profile.identity.email}`} aria-label="Email">
+        <a className="icon-button" href="#" aria-label="Email" aria-disabled="true" onClick={(event) => event.preventDefault()}>
           <Mail size={19} />
         </a>
         <button className="chip-button" type="button" onClick={() => setLang(isZh ? 'en' : 'zh')} aria-label="Switch language">
